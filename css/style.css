@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ----------------------- header part start here -----------------  */
+
+header{
+    padding: 10px 0;
+    background-color: #F6F9FC;
+}
+
+.header_main{
+    text-align: right;
+}
+.header_main a{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+/* -------------------- navbar start here --------------  */
+
+nav{
+    padding: 15px 0;
+    background-color: #fff;
+}
+.logo img{
+    width: 140px;
+    height: 100px;
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.nav_btn button{
+    background: none;
+    border: none;
+    padding: 18px 26px;
+    background-color: #051335;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.nav_btn button:hover{
+    padding: 16px 35px;
+}
+
+/* ----------------------- banner part start here -----------------  */
+
+#banner{
+    padding: 100px;
+    background-color: #051335;
+    border-radius: 0 0 100px 100px;
+}
+.banner_main{
+    padding: 100px 0;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.banner_main h1{
+    padding: 25px 0;
+    line-height: 32px;
+    font-size: 28px;
+}
+.banner_main p{
+    line-height: 28px;
+    font-size: 18px;
+}
+.banner_main button{
+    margin-top: 50px;
+    background: none;
+    border: none;
+    padding: 18px 25px;
+    background-color: aqua;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.banner_main button:hover{
+    padding: 14px 35px;
+}
+
+/* ------------------- happy client part start here -------------- */
+
+#client{
+    padding: 100px 0;
+    background-color: #F3F5FA;
+}
+#client h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.client_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.client_main{
+    width: 380px;
+    height: 250px;
+    background-color: #F4F4F4;
+}
+
+
+
+
+/* ----------------------- footer part start here -----------------  */
+
+footer{
+    padding: 100px 0;
+    background-color: green;
+}
+.footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_main{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.footer_main span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.footer_main p{
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+}
+.footer_main a{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 15px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ----------------------- copywrite part start here -----------------  */
+
+#copywrite{
+    padding: 18px 0;
+    background-color: #051335;
+    border-top: 1px solid #555;
+}
+.copy_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.social_icon a i{
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
