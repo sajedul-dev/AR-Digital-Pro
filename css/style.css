@@ -104,7 +104,6 @@ nav{
     padding: 15px 35px;
     color: #000;
     transition: all linear 0.2s;
-    text-decoration-line: overline;
 }
 .dropdown li a:hover{
     color: #fff;
